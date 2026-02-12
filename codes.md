@@ -30,3 +30,15 @@ fn main() {
    }
 }
 ```
+
+## Day 2
+
+```rust
+fn main() {
+   let s1 = String::from("hello");
+   let s2 = s1;
+
+   // pour corriger, s2 est la nouvelle propriétaire de du string donc, on peux l'utiliser
+   println!("{}", s2);
+}
+```
